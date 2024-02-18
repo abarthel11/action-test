@@ -33,3 +33,6 @@ jobs:
               with:
                   name: 'This Dot Labs'
                   ghToken: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Create File
+              run: touch testing.js
